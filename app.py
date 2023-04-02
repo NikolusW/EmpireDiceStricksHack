@@ -16,7 +16,7 @@ def send_text(user_index):
     user_input = window[f'entry_{user_index}'].get()
     user_name = user_names[user_index]
     console.print(f"{user_name}: {user_input}")
-    response = CustomChatGPT(user_name +" says " + user_input + ". If this needs an ability check, ask for a roll, If not just describe the scene.")
+    response = CustomChatGPT(user_name +" says '" + user_input + "'. If this needs an ability check, ask for a roll, If not just describe the scene.")
     # if "ROLL MODE" in response:
     #     roll_mode = True
     #     console.print("DM: Roll expected")
