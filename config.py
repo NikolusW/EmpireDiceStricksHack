@@ -1,1 +1,0 @@
-api_key_open_ai = "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"
